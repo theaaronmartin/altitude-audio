@@ -1,0 +1,100 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  position: fixed;
+  margin-top: 0px;
+  border-radius: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/*Center navbar*/
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*End center navbar*/
+
+.navbar .nav > li > a {
+  color: #fff;
+}
+
+.navbar .nav > li.dropdown.open > a {
+  color: #017888;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #000;
+}
+
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li > a:hover {
+  color: #017888;
+}
+
+.navbar .nav > li.active > a,
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li.active > a:focus {
+  color: #017888;
+  font-weight: bold;
+  background-color: #000000;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-menu > li > a {
+  background-color: #000;
+  color: #FFF;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #000;
+  color: #017888;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-meni > .active > a:hover {
+  background-color: #000;
+  color: #017888;
+}
+
+body {
+  background-color: #000;
+}
+
+.aalogo {
+  width: 25%;
+  display: block;
+  margin: auto;
+  padding-top: 6em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+hr {
+  border-color: #017888;
+}
+
+/*.skewed {
+  transform: skewY(-3.3deg);
+}
+
+.content {
+  transform: skewY(3.3deg);
+}*/
