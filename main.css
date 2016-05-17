@@ -4,8 +4,9 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  /*position: fixed;*/
   margin-top: 0px;
+  margin-bottom: -30px;
   border-radius: 0px;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -82,13 +83,26 @@ body {
   width: 25%;
   display: block;
   margin: auto;
-  padding-top: 6em;
-  padding-left: 0px;
-  padding-right: 0px;
+  /*padding-top: 5em;*/
+  opacity: .75;
+}
+
+.page-header {
+  border-bottom: 1px solid #017888;
 }
 
 hr {
   border-color: #017888;
+}
+
+.bg-img {
+  background-image: url(images/aalogo.jpg);
+  display: block;
+  margin: auto;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /*.skewed {
