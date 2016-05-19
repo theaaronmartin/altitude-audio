@@ -101,7 +101,21 @@ body {
   margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 2em;
+  width: 85%;
+}
 
+.control-room {
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+.drums {
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
 }
 
 .breadcrumb-wrap {
