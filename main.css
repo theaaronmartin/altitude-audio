@@ -104,10 +104,19 @@ body {
 
 }
 
-.page-header {
+.breadcrumb-wrap {
+  padding: 30px 0;
+  background-color: rgba(210, 211, 212, 0.15);
+  border-top: 1px solid #017888;
   border-bottom: 1px solid #017888;
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
+h1.page-header {
+  border-bottom: transparent;
   font-weight: 900;
-  padding-bottom: 1em;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .divide40 {
