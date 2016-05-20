@@ -61,7 +61,7 @@ h2 {
 .navbar .nav > li.active > a:focus {
   color: #017888;
   font-weight: bold;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.01);
 }
 
 .navbar-default .navbar-nav > li > a:focus {
@@ -119,15 +119,29 @@ body {
 }
 
 .breadcrumb-wrap {
-  padding: 30px 0;
-  background-color: rgba(210, 211, 212, 0.15);
-  border-top: 1px solid #017888;
-  border-bottom: 1px solid #017888;
+  padding: 150px 0;
+  /*background-color: rgba(210, 211, 212, 0.15);*/
+  background-image: url(../images/mics-banner.jpg);
+  background-position-y: -275px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  border-top: 2px solid #017888;
+  border-bottom: 2px solid #017888;
   margin-top: 6em;
   margin-bottom: 2em;
 }
 
 h1.page-header {
+  border-bottom: transparent;
+  font-weight: 900;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1.heading {
+  color: #017888;
+  display: block;
+  position: relative;
+  down: 20px;
   border-bottom: transparent;
   font-weight: 900;
   font-family: 'Ubuntu', sans-serif;
