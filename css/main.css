@@ -8,16 +8,18 @@ h2 {
   color: #017888;
 }
 
+.full {
+  height: 90vh;
+}
+
 .navbar {
   /*position: fixed;*/
-  margin-top: 0px;
   margin-bottom: -30px;
-  border-radius: 0px;
   padding-top: 1em;
   padding-bottom: 1em;
   border: none;
-  /*border-color: #017888;*/
-  background-color: rgba(1, 120, 136, 0.2);
+  border-bottom: 1px solid #017888;
+  background-color: #000;
 }
 
 /*Center navbar*/
@@ -100,8 +102,10 @@ body {
 }
 
 .aalogo {
+  display: block;
   margin: 0 auto;
-  padding-top: 2em;
+  margin-top: 10em;
+  /*margin-bottom: 5em;*/
   width: 25%;
 }
 
@@ -138,12 +142,23 @@ h1.page-header {
   font-family: 'BenchNine', sans-serif;
 }
 
+h1.intro {
+  color: #fff;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin-top: 1em;
+  border-bottom: transparent;
+  font-weight: 900;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 h1.heading {
   color: #fff;
   text-align: center;
   display: block;
   position: relative;
-  margin-top: 3em;
+  margin-top: 3.25em;
   border-bottom: transparent;
   font-weight: 900;
   font-family: 'Ubuntu', sans-serif;
@@ -184,7 +199,18 @@ h2.heading:after {
   height: .50em;
   margin: 0 -200% 0 0;
   border-top: 1px solid #d2d3d4;
-  border-bottom: 1px solid #d2d3d4; }
+  border-bottom: 1px solid #d2d3d4;
+}
+
+a.enter-link {
+  text-decoration: none;
+}
+
+.enter {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 45px;
+}
 
 .separator-container {
   text-align: center;
