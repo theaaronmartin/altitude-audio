@@ -158,10 +158,11 @@ h1.heading {
   text-align: center;
   display: block;
   position: relative;
-  margin-top: 3.25em;
+  margin-top: 1.85em;
   border-bottom: transparent;
-  font-weight: 900;
-  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
 }
 
 .divide40 {
@@ -210,6 +211,7 @@ a.enter-link {
   margin-top: 1.5em;
   text-align: center;
   font-size: 45px;
+  letter-spacing: 1px;
 }
 
 .separator-container {
@@ -249,16 +251,28 @@ a.enter-link {
 .center-line {
   display: block;
   margin: 10px auto;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 1.5em;
-  height: 3px;
+  height: 1px;
   text-align: center;
   width: 120px;
   background-color: rgba(1, 120, 136, .9);
   border-top: transparent;
 }
 
-.about-paragraph {
+.services-center-line {
+  display: block;
+  margin: 10px auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  height: 1px;
+  text-align: center;
+  width: 75px;
+  background-color: rgba(1, 120, 136, .9);
+  border-top: transparent;
+}
+
+p {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -267,11 +281,56 @@ a.enter-link {
 .aafont {
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: #017888;
 }
 
 .about-content {
   margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.services-box {
+  margin-bottom: 4em;
+  border: 1px solid #017888;
+  padding: 2em;
+}
+
+.services-box-icon {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.services-box-info {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.services-box-info > h4 {
+  margin-bottom: 1.7em;
+  margin-top: 1.2em;
+}
+
+.services-box-info > p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.icon-background {
+  display: block;
+  margin: 0 auto;
+  background-color: #017888;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feature-heading {
+  margin-top: .5em;
+  text-align: center;
+  font-size: 22px;
 }
